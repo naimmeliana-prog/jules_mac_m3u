@@ -37,11 +37,11 @@ def clean_cmd(cmd):
 
 def is_es_fr_en(cat_name):
     lower_cat = cat_name.lower()
-    return re.search(r'(?:es|fr|en|esp|fra|eng|uk)\|', lower_cat) or re.search(r'\|(?:es|fr|en|esp|fra|eng|uk)', lower_cat) or "español" in lower_cat or "français" in lower_cat or "english" in lower_cat or "espagne" in lower_cat or "france" in lower_cat or "uk" in lower_cat or "usa" in lower_cat
+    return re.search(r'(?:es|fr|en|esp|fra|eng|uk)\|', lower_cat) or re.search(r'\|(?:es|esp)', lower_cat) or "español" or "espagne" in lower_cat
 
 def is_es_fr(cat_name):
     lower_cat = cat_name.lower()
-    return re.search(r'(?:es|fr|esp|fra)\|', lower_cat) or re.search(r'\|(?:es|fr|esp|fra)', lower_cat) or "español" in lower_cat or "français" in lower_cat or "espagne" in lower_cat or "france" in lower_cat
+    return re.search(r'(?:es|esp)\|', lower_cat) or re.search(r'\|(?:es|esp)', lower_cat) or "español" in lower_cat or "espagne" in lower_cat
 
 res = request("stb", "handshake")
 if res and "js" in res and "token" in res["js"]:
