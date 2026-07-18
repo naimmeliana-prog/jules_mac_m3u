@@ -158,9 +158,51 @@ def process_series(s, cat_name):
             if ep_res and "js" in ep_res and "data" in ep_res["js"]:
                 episodes = ep_res["js"]["data"]
                 
-                # If episodes list is empty but 'series' field is not, construct manually 
-                # (some portals behave differently, fallback to the base64 technique that worked previously)
-                if not episodes:
+                # Check if episodes array actually has elements
+                if episodes:
+                    for ep in episodes:
+                        # Some portals return Season itself as an episode when it's not divided into episodes, but has a "series" array of ints inside.
+                        ep_title = ep.get("name", f"Episode")
+                        ep_series_arr = ep.get("series", [])
+                        
+                        if ep_series_arr and isinstance(ep_series_arr, list) and len(ep_series_arr) > 0 and type(ep_series_arr[0]) == int:
+                            # It's a season container with episode numbers
+                            for ep_num in ep_series_arr:
+                                ep_name = f"{series_name} - S{season_num:02d}E{ep_num:02d}"
+                                cmd_data = {
+                                    "series_id": int(series_id),
+                                    "season_num": season_num,
+                                    "episode_num": ep_num,
+                                    "type": "series"
+                                }
+                                cmd_str = base64.b64encode(json.dumps(cmd_data).encode('utf-8')).decode('utf-8')
+                                link_res = request("vod", "create_link", cmd=cmd_str, series="", forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
+                                if link_res and "js" in link_res and isinstance(link_res["js"], dict) and "cmd" in link_res["js"]:
+                                    url = clean_cmd(link_res["js"]["cmd"])
+                                    if url:
+                                        if "?" in url:
+                                            url += "&dummy=/series/&type=movie"
+                                        else:
+                                            url += "?dummy=/series/&type=movie"
+                                        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
+                                        series_output.append(f'{extinf}\n{url}')
+                        else:
+                            # It's a direct episode with a cmd
+                            ep_name = f"{series_name} - {season_name} - {ep_title}"
+                            ep_cmd = ep.get("cmd")
+                            if ep_cmd:
+                                link_res = request("vod", "create_link", cmd=ep_cmd, series="", forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
+                                if link_res and "js" in link_res and isinstance(link_res["js"], dict) and "cmd" in link_res["js"]:
+                                    url = clean_cmd(link_res["js"]["cmd"])
+                                    if url:
+                                        if "?" in url:
+                                            url += "&dummy=/series/&type=movie"
+                                        else:
+                                            url += "?dummy=/series/&type=movie"
+                                        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
+                                        series_output.append(f'{extinf}\n{url}')
+                else:
+                    # Fallback to season's 'series' array
                     ep_nums = season.get("series", [])
                     if not ep_nums:
                         ep_nums = [1]
@@ -183,22 +225,6 @@ def process_series(s, cat_name):
                                     url += "?dummy=/series/&type=movie"
                                 extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
                                 series_output.append(f'{extinf}\n{url}')
-                else:
-                    for ep in episodes:
-                        ep_title = ep.get("name", f"Episode")
-                        ep_name = f"{series_name} - {season_name} - {ep_title}"
-                        ep_cmd = ep.get("cmd")
-                        if ep_cmd:
-                            link_res = request("vod", "create_link", cmd=ep_cmd, series="", forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
-                            if link_res and "js" in link_res and isinstance(link_res["js"], dict) and "cmd" in link_res["js"]:
-                                url = clean_cmd(link_res["js"]["cmd"])
-                                if url:
-                                    if "?" in url:
-                                        url += "&dummy=/series/&type=movie"
-                                    else:
-                                        url += "?dummy=/series/&type=movie"
-                                    extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
-                                    series_output.append(f'{extinf}\n{url}')
     return series_output
 
 if series_cats_res and "js" in series_cats_res:
