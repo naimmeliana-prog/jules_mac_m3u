@@ -100,9 +100,7 @@ def get_vod_link(v, cat_name):
         url = clean_cmd(link_res["js"]["cmd"])
         if url:
             if "type=movie" not in url:
-                url += "&type=movie"
-            if "/movie/" not in url:
-                url += "&dummy=/movie/"
+                url += "&dummy=/movie/&type=movie"
             extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{name}'
             return f"{extinf}\n{url}"
     return None
@@ -206,4 +204,4 @@ if series_cats_res and "js" in series_cats_res:
 
 with open("lista_iptv.m3u", "w", encoding='utf-8') as f:
     f.write("\n".join(m3u_output))
-print("Finished", file=sys.stderr)
+print("Done", file=sys.stderr)
