@@ -2,12 +2,14 @@ name: Update M3U Playlist
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Se ejecuta cada 12 horas
-  workflow_dispatch: # Permite la ejecución manual
+    - cron: '0 0 * * *' # Run daily at midnight
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
     - name: Checkout repository
