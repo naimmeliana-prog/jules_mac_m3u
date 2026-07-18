@@ -37,11 +37,11 @@ def clean_cmd(cmd):
 
 def is_es_fr_en(cat_name):
     lower_cat = cat_name.lower()
-    return re.search(r'(?:es|fr|en|esp|fra|eng|uk)\|', lower_cat) or re.search(r'\|(?:es|fr|en|esp|fra|eng|uk)', lower_cat) or "español" in lower_cat or "français" in lower_cat or "english" in lower_cat or "espagne" in lower_cat or "france" in lower_cat or "uk" in lower_cat or "usa" in lower_cat
+    return re.search(r'(?:es|esp)\|', lower_cat) or re.search(r'\|(?:es|esp)', lower_cat) or "español" in lower_cat or "spain" in lower_cat
 
 def is_es_fr(cat_name):
     lower_cat = cat_name.lower()
-    return re.search(r'(?:es|fr|esp|fra)\|', lower_cat) or re.search(r'\|(?:es|fr|esp|fra)', lower_cat) or "español" in lower_cat or "français" in lower_cat or "espagne" in lower_cat or "france" in lower_cat
+    return re.search(r'(?:es|esp)\|', lower_cat) or re.search(r'\|(?:es|esp)', lower_cat) or "español" in lower_cat or "spain" in lower_cat
 
 res = request("stb", "handshake")
 if res and "js" in res and "token" in res["js"]:
@@ -75,7 +75,7 @@ if live_genres_res and "js" in live_genres_res:
 
         futures = []
         for genre_id, genre_name in live_genres.items():
-            if is_es_fr_en(genre_name) or genre_name.startswith("ES|") or genre_name.startswith("FR|") or genre_name.startswith("UK|"):
+            if is_es_fr_en(genre_name) or genre_name.startswith("ES|") or genre_name.startswith("ESP|"):
                 print(f"Cat Live: {genre_name}", file=sys.stderr)
                 futures.append(executor.submit(fetch_live_cat, genre_id, genre_name))
 
