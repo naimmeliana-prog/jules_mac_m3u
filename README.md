@@ -6,10 +6,10 @@ Esta herramienta está diseñada para ejecutarse automáticamente mediante GitHu
 
 ## Características
 
-- Filtrado de Live TV por idiomas: Español (ES), Francés (FR) e Inglés (UK/EN).
-- Filtrado de VOD y Series por idiomas: Español (ES) y Francés (FR).
+- Filtrado de Live TV, VOD y Series por idioma: estrictamente Español (ES).
 - Carga de metadatos completos para Películas y Series (Sinopsis, Año, Director, Reparto, Póster/Logo).
-- Generación y extracción correcta de temporadas y episodios de Series utilizando el formato de token Base64 de portales MAC Stalker.
+- Generación y extracción correcta de temporadas y episodios de Series.
+- Integración explícita con el reproductor WebOS (evita que las películas se crucen a la sección de TV en Vivo añadiendo `dummy=/movie/video.mp4`).
 - Auto-actualizable y gratuita: Utiliza GitHub Actions para ejecutarse cada noche y subir los cambios a este repositorio.
 
 ## Cómo usar el link M3U auto-actualizable
