@@ -101,7 +101,7 @@ def get_vod_link(v, cat_name):
         if url:
             if "type=movie" not in url:
                 url += "&dummy=/movie/&type=movie"
-            extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{name}'
+            extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (VOD)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{name}'
             return f"{extinf}\n{url}"
     return None
 
@@ -184,7 +184,7 @@ def process_series(s, cat_name):
                                             url += "&dummy=/series/&type=movie"
                                         else:
                                             url += "?dummy=/series/&type=movie"
-                                        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
+                                        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (Series)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
                                         series_output.append(f'{extinf}\n{url}')
                         else:
                             # It's a direct episode with a cmd
@@ -199,7 +199,7 @@ def process_series(s, cat_name):
                                             url += "&dummy=/series/&type=movie"
                                         else:
                                             url += "?dummy=/series/&type=movie"
-                                        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
+                                        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (Series)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
                                         series_output.append(f'{extinf}\n{url}')
                 else:
                     # Fallback to season's 'series' array
@@ -223,7 +223,7 @@ def process_series(s, cat_name):
                                     url += "&dummy=/series/&type=movie"
                                 else:
                                     url += "?dummy=/series/&type=movie"
-                                extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
+                                extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (Series)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
                                 series_output.append(f'{extinf}\n{url}')
     return series_output
 
