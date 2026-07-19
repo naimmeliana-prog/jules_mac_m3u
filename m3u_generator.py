@@ -100,7 +100,7 @@ def get_vod_link(v, cat_name):
         url = clean_cmd(link_res["js"]["cmd"])
         if url:
             if "type=movie" not in url:
-                url += "&dummy=vod/movie.mp4"
+                url += "&dummy=/movie/video.mp4&type=movie"
             extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (VOD)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{name}'
             return f"{extinf}\n{url}"
     return None
@@ -181,9 +181,9 @@ def process_series(s, cat_name):
                                     url = clean_cmd(link_res["js"]["cmd"])
                                     if url:
                                         if "?" in url:
-                                            url += "&dummy=series/episode.mp4"
+                                            url += "&dummy=/series/video.mp4&type=movie"
                                         else:
-                                            url += "?dummy=series/episode.mp4"
+                                            url += "?dummy=/series/video.mp4&type=movie"
                                         extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (Series)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
                                         series_output.append(f'{extinf}\n{url}')
                         else:
@@ -196,9 +196,9 @@ def process_series(s, cat_name):
                                     url = clean_cmd(link_res["js"]["cmd"])
                                     if url:
                                         if "?" in url:
-                                            url += "&dummy=series/episode.mp4"
+                                            url += "&dummy=/series/video.mp4&type=movie"
                                         else:
-                                            url += "?dummy=series/episode.mp4"
+                                            url += "?dummy=/series/video.mp4&type=movie"
                                         extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (Series)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
                                         series_output.append(f'{extinf}\n{url}')
                 else:
@@ -220,9 +220,9 @@ def process_series(s, cat_name):
                             url = clean_cmd(link_res["js"]["cmd"])
                             if url:
                                 if "?" in url:
-                                    url += "&dummy=series/episode.mp4"
+                                    url += "&dummy=/series/video.mp4&type=movie"
                                 else:
-                                    url += "?dummy=series/episode.mp4"
+                                    url += "?dummy=/series/video.mp4&type=movie"
                                 extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (Series)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
                                 series_output.append(f'{extinf}\n{url}')
     return series_output
