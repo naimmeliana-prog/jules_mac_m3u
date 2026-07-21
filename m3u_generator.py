@@ -37,11 +37,11 @@ def clean_cmd(cmd):
 
 def is_es_fr_en(cat_name):
     lower_cat = cat_name.lower()
-    return re.search(r'(?:es|esp)\|', lower_cat) or re.search(r'\|(?:es|esp)', lower_cat) or "español" in lower_cat or "spain" in lower_cat
+    return re.search(r'(?:es|fr|en|esp|fra|eng|uk)\|', lower_cat) or re.search(r'\|(?:es|fr|en|esp|fra|eng|uk)', lower_cat) or "español" in lower_cat or "français" in lower_cat or "english" in lower_cat or "espagne" in lower_cat or "france" in lower_cat or "uk" in lower_cat or "usa" in lower_cat
 
 def is_es_fr(cat_name):
     lower_cat = cat_name.lower()
-    return re.search(r'(?:es|esp)\|', lower_cat) or re.search(r'\|(?:es|esp)', lower_cat) or "español" in lower_cat or "spain" in lower_cat
+    return re.search(r'(?:es|fr|esp|fra)\|', lower_cat) or re.search(r'\|(?:es|fr|esp|fra)', lower_cat) or "español" in lower_cat or "français" in lower_cat or "espagne" in lower_cat or "france" in lower_cat
 
 res = request("stb", "handshake")
 if res and "js" in res and "token" in res["js"]:
@@ -75,7 +75,7 @@ if live_genres_res and "js" in live_genres_res:
 
         futures = []
         for genre_id, genre_name in live_genres.items():
-            if is_es_fr_en(genre_name) or genre_name.startswith("ES|") or genre_name.startswith("ESP|"):
+            if is_es_fr_en(genre_name) or genre_name.startswith("ES|") or genre_name.startswith("FR|") or genre_name.startswith("UK|"):
                 print(f"Cat Live: {genre_name}", file=sys.stderr)
                 futures.append(executor.submit(fetch_live_cat, genre_id, genre_name))
 
@@ -94,14 +94,17 @@ def get_vod_link(v, cat_name):
     year = v.get("year", "")
     director = str(v.get("director", "")).replace('"', "'")
     actors = str(v.get("actors", "")).replace('"', "'")
-    
+
     link_res = request("vod", "create_link", cmd=cmd, series=0, forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
     if link_res and "js" in link_res and isinstance(link_res["js"], dict) and "cmd" in link_res["js"]:
         url = clean_cmd(link_res["js"]["cmd"])
         if url:
-            if "type=movie" not in url:
-                url += "&dummy=/movie/video.mp4&type=movie"
-            extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (VOD)" description="{desc}" year="{year}" director="{director}" actors="{actors}",{name}'
+            if "dummy=/movie/" not in url:
+                if "?" in url:
+                    url += "&dummy=/movie/&type=movie"
+                else:
+                    url += "?dummy=/movie/&type=movie"
+            extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{name}'
             return f"{extinf}\n{url}"
     return None
 
@@ -141,110 +144,49 @@ def process_series(s, cat_name):
     director = str(s.get("director", "")).replace('"', "'")
     actors = str(s.get("actors", "")).replace('"', "'")
 
-    raw_series = s.get("series", "")
-    seasons_data = None
-    if isinstance(raw_series, str) and raw_series.strip():
-        try:
-            seasons_data = json.loads(raw_series)
-        except json.JSONDecodeError:
-            print(f"[{series_name}] no pude parsear 'series': {raw_series[:200]}", file=sys.stderr)
-    elif isinstance(raw_series, list):
-        seasons_data = raw_series
-
-    if not seasons_data:
-        ss = request("series", "get_seasons", movie_id=series_id)
-        if ss and "js" in ss and "data" in ss["js"]:
-            seasons_data = ss["js"]["data"]
-
-    if not seasons_data:
-        ss = request("series", "get_ordered_list", movie_id=series_id)
-        if ss and "js" in ss and "data" in ss["js"]:
-            seasons_data = ss["js"]["data"]
-
-    if not seasons_data:
-        print(f"[{series_name}] SIN temporadas. raw_series={str(raw_series)[:300]}", file=sys.stderr)
-        return series_output
-
-    for season in seasons_data:
-        season_id = None
-        if isinstance(season, dict):
-            season_num = season.get("season_number") or season.get("number")
-            if not season_num:
-                sn_match = re.search(r'\d+', season.get("name", ""))
-                season_num = int(sn_match.group()) if sn_match else 1
-            episodes = season.get("episodes", season.get("series", []))
+    s_res = request("series", "get_ordered_list", movie_id=series_id)
+    if s_res and "js" in s_res and "data" in s_res["js"]:
+        seasons = s_res["js"]["data"]
+        for season in seasons:
             season_id = season.get("id")
-        else:
-            season_num = season
-            episodes = []
+            season_name = season.get("name", "Season 1")
 
-        if isinstance(episodes, str) and episodes.strip():
-            try: episodes = json.loads(episodes)
-            except: episodes = []
+            season_num = 1
+            sn_match = re.search(r'\d+', season_name)
+            if sn_match:
+                season_num = int(sn_match.group())
 
-        if not episodes:
-            if season_id:
-                ep_res = request("series", "get_ordered_list", movie_id=season_id)
-                if ep_res and "js" in ep_res and "data" in ep_res["js"]:
-                    episodes = ep_res["js"]["data"]
-                    
+            episodes = season.get("series", [])
             if not episodes:
-                ep_res = request("series", "get_ordered_list", movie_id=series_id, season=season_num)
-                if ep_res and "js" in ep_res and "data" in ep_res["js"]:
-                    episodes = ep_res["js"]["data"]
-
-        for ep in episodes:
-            if isinstance(ep, dict):
-                ep_num = ep.get("num") or ep.get("number") or ep.get("episode_num")
-                if not ep_num:
-                    num_match = re.search(r'\d+', ep.get("name", ""))
-                    ep_num = int(num_match.group()) if num_match else None
-                ep_title = ep.get("name", "")
-                ep_cmd = ep.get("cmd", "")
-            else:
-                ep_num = ep
-                ep_title = ""
-                ep_cmd = ""
-
-            if not ep_num:
-                continue
-
-            link_res = None
-            url = ""
+                episodes = [1]
             
-            if ep_cmd:
-                link_res = request("vod", "create_link", cmd=ep_cmd, series="", forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
-            
-            if not link_res or "js" not in link_res or not link_res.get("js", {}).get("cmd"):
-                cmd_data = {"series_id": int(series_id), "season_num": season_num, "episode_num": ep_num, "type": "series"}
-                cmd_str = base64.b64encode(json.dumps(cmd_data).encode('utf-8')).decode('utf-8')
-                link_res = request("vod", "create_link", cmd=cmd_str, series="", forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
+            base_cmd_str = season.get("cmd", "")
 
-            if not link_res or "js" not in link_res or not link_res.get("js", {}).get("cmd"):
-                series_cmd = s.get("cmd", "")
-                if series_cmd:
-                    link_res = request("series", "create_link", cmd=series_cmd, series=ep_num, forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
-                    
-            if not link_res or "js" not in link_res or not link_res.get("js", {}).get("cmd"):
-                ep_cmd_format = f"series:/play/series/{season_num}/{ep_num}/{series_id}"
-                link_res = request("vod", "create_link", cmd=ep_cmd_format, series="", forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
-
-            if link_res and "js" in link_res and isinstance(link_res["js"], dict) and "cmd" in link_res["js"]:
-                url = clean_cmd(link_res["js"]["cmd"])
+            for ep_num in episodes:
+                ep_name = f"{series_name} - S{season_num:02d}E{ep_num:02d}"
                 
-            if url:
-                if "?" in url:
-                    url += "&dummy=/series/video.mp4&type=movie"
-                else:
-                    url += "?dummy=/series/video.mp4&type=movie"
-                label = f"{series_name} - S{int(season_num):02d}E{int(ep_num):02d}"
-                if ep_title and "Season" not in ep_title and "Episode" not in ep_title:
-                    label += " - " + str(ep_title)
-                extinf = (f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name} (Series)" '
-                          f'description="{desc}" year="{year}" director="{director}" actors="{actors}",'
-                          f'{label}')
-                series_output.append(f"{extinf}\n{url}")
+                cmd_str = base_cmd_str
+                if not cmd_str:
+                    cmd_data = {
+                        "series_id": int(series_id),
+                        "season_num": season_num,
+                        "episode_num": ep_num,
+                        "type": "series"
+                    }
+                    cmd_str = base64.b64encode(json.dumps(cmd_data, separators=(',', ':')).encode('utf-8')).decode('utf-8')
 
+                link_res = request("vod", "create_link", cmd=cmd_str, series=ep_num, forced_storage=0, disable_ad=0, JsHttpRequest="1-xml")
+                if link_res and "js" in link_res and isinstance(link_res["js"], dict) and "cmd" in link_res["js"]:
+                    url = clean_cmd(link_res["js"]["cmd"])
+                    if url:
+                        if "dummy=/series/" not in url:
+                            if "?" in url:
+                                url += "&dummy=/series/&type=movie"
+                            else:
+                                url += "?dummy=/series/&type=movie"
+
+                        extinf = f'#EXTINF:-1 tvg-logo="{logo}" group-title="{cat_name}" description="{desc}" year="{year}" director="{director}" actors="{actors}",{ep_name}'
+                        series_output.append(f'{extinf}\n{url}')
     return series_output
 
 if series_cats_res and "js" in series_cats_res:
