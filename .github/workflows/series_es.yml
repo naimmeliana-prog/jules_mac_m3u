@@ -1,0 +1,31 @@
+name: Update Series ES M3U
+
+on:
+  schedule:
+    - cron: '50 0 * * *' # 00:50 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Run M3U Generator
+      run: python m3u_generator.py --type series --lang es
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add series_es.m3u
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update Series ES M3U playlist" && git push)
