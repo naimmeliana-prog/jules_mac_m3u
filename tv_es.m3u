@@ -1,0 +1,153 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/SPAIN.png" group-title="ES| TDT ESPAÑA VIP",##### TDT ESPAÑA #####
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1548213&extension=ts&play_token=CtuSWGHtZk
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA1.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 1 4K/UHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547370&extension=ts&play_token=TvZghAuU9q
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA1.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 1 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=119013&extension=ts&play_token=n9KvDq8O0u
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA1.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 1 FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547369&extension=ts&play_token=GXXD8NOnh0
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA1.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 1 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107594&extension=ts&play_token=EvqtJb2Tic
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA1.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 1 SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547368&extension=ts&play_token=BigusSwOjx
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA2.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 2 FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547372&extension=ts&play_token=Ho52TM9v4Z
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA2.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 2 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1548214&extension=ts&play_token=Iiidx8gODY
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LA2.png" group-title="ES| TDT ESPAÑA VIP",ES| LA 2 SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107593&extension=ts&play_token=g7jNTWHxOY
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/24HTVE.png" group-title="ES| TDT ESPAÑA VIP",ES| 24H TVE FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547367&extension=ts&play_token=kzPy3trIum
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/24HTVE.png" group-title="ES| TDT ESPAÑA VIP",ES| 24H TVE HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547365&extension=ts&play_token=LQizTgMg2R
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/24HTVE.png" group-title="ES| TDT ESPAÑA VIP",ES| 24H TVE SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547366&extension=ts&play_token=k6bqMEuYKN
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ANTENA3.png" group-title="ES| TDT ESPAÑA VIP",ES| ANTENA 3 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=119025&extension=ts&play_token=Acf8OZ6Fsa
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ANTENA3.png" group-title="ES| TDT ESPAÑA VIP",ES| ANTENA 3 FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547374&extension=ts&play_token=8WZ1gB6zkg
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ANTENA3.png" group-title="ES| TDT ESPAÑA VIP",ES| ANTENA 3 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107631&extension=ts&play_token=aNkcUyQNlc
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ANTENA3.png" group-title="ES| TDT ESPAÑA VIP",ES| ANTENA 3 SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547373&extension=ts&play_token=UQrC5K9Khq
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ANTENA3.png" group-title="ES| TDT ESPAÑA VIP",ES| ANTENA 3 INT.
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=136724&extension=ts&play_token=1vH97uhywW
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CUATRO.png" group-title="ES| TDT ESPAÑA VIP",ES| CUATRO HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=119018&extension=ts&play_token=FJmikzloUE
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CUATRO.png" group-title="ES| TDT ESPAÑA VIP",ES| CUATRO FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547376&extension=ts&play_token=MdM3eX7C5F
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CUATRO.png" group-title="ES| TDT ESPAÑA VIP",ES| CUATRO HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107610&extension=ts&play_token=s4HBemdhg8
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CUATRO.png" group-title="ES| TDT ESPAÑA VIP",ES| CUATRO SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547375&extension=ts&play_token=sbHTz7lmHu
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TELECINCO.png" group-title="ES| TDT ESPAÑA VIP",ES| TELECINCO HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=118990&extension=ts&play_token=33ZSMWi0mt
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TELECINCO.png" group-title="ES| TDT ESPAÑA VIP",ES| TELECINCO FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547377&extension=ts&play_token=eHH0Lzmyvn
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TELECINCO.png" group-title="ES| TDT ESPAÑA VIP",ES| TELECINCO HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107534&extension=ts&play_token=sCfGCi1kLU
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TELECINCO.png" group-title="ES| TDT ESPAÑA VIP",ES| TELECINCO SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547378&extension=ts&play_token=wtwNb10cpb
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LASEXTA.png" group-title="ES| TDT ESPAÑA VIP",ES| LA SEXTA HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=119012&extension=ts&play_token=y03uhqp4BV
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LASEXTA.png" group-title="ES| TDT ESPAÑA VIP",ES| LA SEXTA FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547380&extension=ts&play_token=KCfnTlpeyB
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LASEXTA.png" group-title="ES| TDT ESPAÑA VIP",ES| LA SEXTA HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107592&extension=ts&play_token=QgCgwzxX8C
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LASEXTA.png" group-title="ES| TDT ESPAÑA VIP",ES| LA SEXTA SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547379&extension=ts&play_token=AfDRU7nyFg
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/SEVILLA.png" group-title="ES| TDT ESPAÑA VIP",ES| SEVILLA TV HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547346&extension=ts&play_token=4fCU4dVWpA
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/REALMADRID.png" group-title="ES| TDT ESPAÑA VIP",ES| R. MADRID TV FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1510750&extension=ts&play_token=V7HHP55aKX
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/REALMADRID.png" group-title="ES| TDT ESPAÑA VIP",ES| R. MADRID TV HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1510762&extension=ts&play_token=RJjQliwhOS
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/REALMADRID.png" group-title="ES| TDT ESPAÑA VIP",ES| R. MADRID TV SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107538&extension=ts&play_token=qrIkefDJUb
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CANALSURANDALUCIA.png" group-title="ES| TDT ESPAÑA VIP",ES| CANAL SUR ANDALUCIA FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107617&extension=ts&play_token=sbZm7ivSxU
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CANALSURANDALUCIA.png" group-title="ES| TDT ESPAÑA VIP",ES| CANAL SUR ANDALUCIA HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547350&extension=ts&play_token=TtcSjoNQCy
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CANALSURANDALUCIA.png" group-title="ES| TDT ESPAÑA VIP",ES| CANAL SUR ANDALUCIA SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547349&extension=ts&play_token=gPXhWDXbu9
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TVGALICIA.png" group-title="ES| TDT ESPAÑA VIP",ES| TV GALICIA HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=477183&extension=ts&play_token=FRW7YZwLCp
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CASTILLA-LA-MANCHA.png" group-title="ES| TDT ESPAÑA VIP",ES| CASTILLA LA MANCHA FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547381&extension=ts&play_token=FFQFQhGgU1
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CASTILLA-LA-MANCHA.png" group-title="ES| TDT ESPAÑA VIP",ES| CASTILLA LA MANCHA HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547382&extension=ts&play_token=yZfJn6tzl3
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/EXTREMADURA.png" group-title="ES| TDT ESPAÑA VIP",ES| EXTREMADURA SAT FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547364&extension=ts&play_token=vSJDIRwXLc
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/EXTREMADURA.png" group-title="ES| TDT ESPAÑA VIP",ES| EXTREMADURA SAT HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=477185&extension=ts&play_token=jhLvmXUIGo
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LAOTRA.png" group-title="ES| TDT ESPAÑA VIP",ES| LA OTRA FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547383&extension=ts&play_token=Gb1J7zbl7g
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LAOTRA.png" group-title="ES| TDT ESPAÑA VIP",ES| LA OTRA HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547385&extension=ts&play_token=1I7CNFsDZc
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/LAOTRA.png" group-title="ES| TDT ESPAÑA VIP",ES| LA OTRA SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547384&extension=ts&play_token=YMyrcshFeW
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TRECE.png" group-title="ES| TDT ESPAÑA VIP",ES| TRECE TV FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547386&extension=ts&play_token=tUdKtKjuxU
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TRECE.png" group-title="ES| TDT ESPAÑA VIP",ES| TRECE TV HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547388&extension=ts&play_token=H2wO7R7MzE
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TRECE.png" group-title="ES| TDT ESPAÑA VIP",ES| TRECE TV SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547387&extension=ts&play_token=3mi9xbidgD
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TV3CATALUNA.png" group-title="ES| TDT ESPAÑA VIP",ES| TV3 CATALUÑA FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547351&extension=ts&play_token=uHCNGPjaai
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TV3CATALUNA.png" group-title="ES| TDT ESPAÑA VIP",ES| TV3 CATALUÑA HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547352&extension=ts&play_token=BGpGp55NLN
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/TV3CATALUNA.png" group-title="ES| TDT ESPAÑA VIP",ES| TV3 CATALUÑA SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547359&extension=ts&play_token=4HDNB2tk1v
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CMM.png" group-title="ES| TDT ESPAÑA VIP",ES| CMM FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547353&extension=ts&play_token=bR7M3Fyy8h
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CMM.png" group-title="ES| TDT ESPAÑA VIP",ES| CMM HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547355&extension=ts&play_token=uwR6h9Ykil
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CMM.png" group-title="ES| TDT ESPAÑA VIP",ES| CMM SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547354&extension=ts&play_token=lpJsUANN6F
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/24HTVE.png" group-title="ES| TDT ESPAÑA VIP",ES| 24 HORAS FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=835061&extension=ts&play_token=WHp2hgaQ3Z
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/24HTVE.png" group-title="ES| TDT ESPAÑA VIP",ES| 24 HORAS HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107633&extension=ts&play_token=iGDkibYN9W
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/DBIKE.png" group-title="ES| TDT ESPAÑA VIP",ES| DBIKE FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547269&extension=ts&play_token=4fRUC0vI6t
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/DBIKE.png" group-title="ES| TDT ESPAÑA VIP",ES| DBIKE HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547267&extension=ts&play_token=8opKFfIoq3
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/DBIKE.png" group-title="ES| TDT ESPAÑA VIP",ES| DBIKE SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547268&extension=ts&play_token=9QMcuQpUBg
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ETB1.png" group-title="ES| TDT ESPAÑA VIP",ES| ETB 1 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547347&extension=ts&play_token=BmlxxbAyl1
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ETB2.png" group-title="ES| TDT ESPAÑA VIP",ES| ETB 2 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547348&extension=ts&play_token=Wmfsae3oHd
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ARAGON.png" group-title="ES| TDT ESPAÑA VIP",ES| ARAGON TV
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1779887&extension=ts&play_token=vGTy0xofKK
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ARAGONTVINT.png" group-title="ES| TDT ESPAÑA VIP",ES| ARAGON TV INT SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107630&extension=ts&play_token=uK5NWtfOHw
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/VINXTVASTURIAS.png" group-title="ES| TDT ESPAÑA VIP",ES| VINX TV ASTURIAS FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547361&extension=ts&play_token=XD1DquBQac
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/U-BEAT.png" group-title="ES| TDT ESPAÑA VIP",ES| U-BEAT FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547362&extension=ts&play_token=h5dDD0Zx4P
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/FRANCE24.png" group-title="ES| TDT ESPAÑA VIP",ES| FRANCE 24 ES FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547391&extension=ts&play_token=xdmcZ2EaSY
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ELPAIS.png" group-title="ES| TDT ESPAÑA VIP",ES| EL PAIS TV FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547392&extension=ts&play_token=l278G0En5o
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ELCONFEDENCIAL.png" group-title="ES| TDT ESPAÑA VIP",ES| EL CONFEDENCIAL TV FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547393&extension=ts&play_token=C5ni2mevyU
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CGTNESPANHOL.png" group-title="ES| TDT ESPAÑA VIP",ES| CGTN ESPANHOL FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=107641&extension=ts&play_token=mS4d0NmJ7Z
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/DWENESPANOL.png" group-title="ES| TDT ESPAÑA VIP",ES| DW EN ESPAÑOL FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547390&extension=ts&play_token=19Mb6lDTZ7
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CUBAVISION.png" group-title="ES| TDT ESPAÑA VIP",ES| CUBAVISION SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547358&extension=ts&play_token=le5XhCpreK
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/BETIS.png" group-title="ES| TDT ESPAÑA VIP",ES| BETIS TV SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547356&extension=ts&play_token=ALLM7ztHHu
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/ELCLUBDELACOMEDIA.png" group-title="ES| TDT ESPAÑA VIP",ES| EL CLUB DE LA COMEDIA SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547389&extension=ts&play_token=91YueKn9ef
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/13TV.png" group-title="ES| TDT ESPAÑA VIP",ES| 13 TV SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=228476&extension=ts&play_token=yWrczYGzn2
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/NEGOCIOS.png" group-title="ES| TDT ESPAÑA VIP",ES| NEGOCIOS TV HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1466062&extension=ts&play_token=npcH00NwAU
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CANALPARLAMENTO.png" group-title="ES| TDT ESPAÑA VIP",ES| CANAL PARLAMENTO SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1547357&extension=ts&play_token=YxY3MwCwAq
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/SPAINNEW/CASTILLA-LA-MANCHA.png" group-title="ES| TDT ESPAÑA VIP",ES| CASTILLA LA MANCHA SD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=477187&extension=ts&play_token=iJSbRmJy2L

@@ -1,0 +1,259 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229420.png" group-title="UK| GENERAL",##### GENERAL FHD #####
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229420&extension=ts&play_token=LoCAUfm51A
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30581.png" group-title="UK| GENERAL",UK| BBC 1 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30581&extension=ts&play_token=sTYslb8vVd
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111542.png" group-title="UK| GENERAL",UK| BBC 1 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111542&extension=ts&play_token=KJYvymDZKk
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30580.png" group-title="UK| GENERAL",UK| BBC 2 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30580&extension=ts&play_token=PkVlgeQBjq
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111546.png" group-title="UK| GENERAL",UK| BBC 2 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111546&extension=ts&play_token=ckyBJBI809
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45336.png" group-title="UK| GENERAL",UK| BBC 3 / CBBC HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45336&extension=ts&play_token=tTBh93s60C
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111550.png" group-title="UK| GENERAL",UK| BBC 3 / CBBC HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111550&extension=ts&play_token=9rxORLlEsQ
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45335.png" group-title="UK| GENERAL",UK| BBC 4 / CBEEBIES HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45335&extension=ts&play_token=NlkQtSNCgn
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111551.png" group-title="UK| GENERAL",UK| BBC 4 / CBEEBIES HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111551&extension=ts&play_token=oMi4jtGLZW
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111548.png" group-title="UK| GENERAL",UK| BBC SCOTLAND HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111548&extension=ts&play_token=11XxI0VWj0
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1885546.png" group-title="UK| GENERAL",UK| BBC LIFESTYLE HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1885546&extension=ts&play_token=lj0xBct3VP
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1556637.png" group-title="UK| GENERAL",UK| BBC EARTH HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1556637&extension=ts&play_token=clkAspnHE8
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30533.png" group-title="UK| GENERAL",UK| ITV 1 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30533&extension=ts&play_token=RcoS4foxFh
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111553.png" group-title="UK| GENERAL",UK| ITV 1 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111553&extension=ts&play_token=2OvK5MlQP9
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30532.png" group-title="UK| GENERAL",UK| ITV 2 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30532&extension=ts&play_token=LxmRXgCuEo
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111555.png" group-title="UK| GENERAL",UK| ITV 2 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111555&extension=ts&play_token=TRYlmWRv5O
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30531.png" group-title="UK| GENERAL",UK| ITV 3 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30531&extension=ts&play_token=1qvL3tID94
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111556.png" group-title="UK| GENERAL",UK| ITV 3 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111556&extension=ts&play_token=raF0epoqEO
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30530.png" group-title="UK| GENERAL",UK| ITV 4 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30530&extension=ts&play_token=RL10hcjsQn
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111557.png" group-title="UK| GENERAL",UK| ITV 4 HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111557&extension=ts&play_token=vgxm8SrYID
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45333.png" group-title="UK| GENERAL",UK| ITV QUIZ HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45333&extension=ts&play_token=6xsL7ta7Q4
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1907592.png" group-title="UK| GENERAL",UK| ITV YORKSHIRE WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1907592&extension=ts&play_token=WiUdLJMz1E
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1907591.png" group-title="UK| GENERAL",UK| ITV YORKSHIRE EAST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1907591&extension=ts&play_token=wnrs3TljVS
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30555.png" group-title="UK| GENERAL",UK| CHANNEL 4 FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30555&extension=ts&play_token=zxRsX2DONy
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1990796.png" group-title="UK| GENERAL",UK| CHANNEL 4SEVEN
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1990796&extension=ts&play_token=nOgMuetxsy
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30554.png" group-title="UK| GENERAL",UK| CHANNEL 5 FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30554&extension=ts&play_token=5huGKSXfcg
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30545.png" group-title="UK| GENERAL",UK| E4 FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30545&extension=ts&play_token=7CNukNCVjZ
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/164064.png" group-title="UK| GENERAL",UK| CBBC FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=164064&extension=ts&play_token=RQjITqJcp4
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/164074.png" group-title="UK| GENERAL",UK| MORE4 HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=164074&extension=ts&play_token=oh2NkIg8l2
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/30584.png" group-title="UK| GENERAL",UK| ALIBI FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=30584&extension=ts&play_token=1C23LI7se5
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229430.png" group-title="UK| GENERAL",UK| ALIBI +1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229430&extension=ts&play_token=1q7eQWJBlk
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1765821.png" group-title="UK| GENERAL",UK| THATS TV
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1765821&extension=ts&play_token=GNZJIlmC8P
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/919226.png" group-title="UK| GENERAL",UK| TALK TV FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=919226&extension=ts&play_token=F4x0hWmhoE
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/919227.png" group-title="UK| GENERAL",UK| TALK TV HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=919227&extension=ts&play_token=ZMEUTnBZwL
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014331.png" group-title="UK| GENERAL",UK| U&W HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014331&extension=ts&play_token=penHcniZv0
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014329.png" group-title="UK| GENERAL",UK| HGTV
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014329&extension=ts&play_token=YopKpoEZCP
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014328.png" group-title="UK| GENERAL",UK| STV CENTRAL WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014328&extension=ts&play_token=YVhtw2q5LM
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014327.png" group-title="UK| GENERAL",UK| STV CENTRAL EAST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014327&extension=ts&play_token=TQzFTnpzvp
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014326.png" group-title="UK| GENERAL",UK| STV NORTH
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014326&extension=ts&play_token=OJVGx0swe3
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014323.png" group-title="UK| GENERAL",UK| HOBBY MAKER
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014323&extension=ts&play_token=9H3j2VCI7k
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014320.png" group-title="UK| GENERAL",UK| QUEST RED
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014320&extension=ts&play_token=05QM7i3odB
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014319.png" group-title="UK| GENERAL",UK| TRUE CRIME XTRA
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014319&extension=ts&play_token=n4WySyAgaw
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1879960.png" group-title="UK| GENERAL",UK| LEGEND XTRA
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1879960&extension=ts&play_token=Wpotdz8n72
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014317.png" group-title="UK| GENERAL",UK| LEGEND
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014317&extension=ts&play_token=YePUHAdgcg
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014314.png" group-title="UK| GENERAL",UK| E4 EXTRA
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014314&extension=ts&play_token=JMVi6JCFCR
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014312.png" group-title="UK| GENERAL",UK| GEOTV
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014312&extension=ts&play_token=xEeScwDJkM
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014311.png" group-title="UK| GENERAL",UK| GOD CHANNEL
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014311&extension=ts&play_token=yWIypF9j1F
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014309.png" group-title="UK| GENERAL",UK| RTE TWO HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014309&extension=ts&play_token=Btcv4hpqVk
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014308.png" group-title="UK| GENERAL",UK| RTE ONE HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014308&extension=ts&play_token=ELMbHheg9J
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014307.png" group-title="UK| GENERAL",UK| CHANNEL 4 +1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014307&extension=ts&play_token=kOfbGojfUk
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/79732.png" group-title="UK| GENERAL",UK| E4
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=79732&extension=ts&play_token=xV4uYIrO8G
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/149647.png" group-title="UK| GENERAL",UK| RT DOCUMENTRY HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=149647&extension=ts&play_token=1E9ox5GR06
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45323.png" group-title="UK| GENERAL",UK| STV FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45323&extension=ts&play_token=T4fuQlOGS9
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111539.png" group-title="UK| GENERAL",UK| TRT WORLD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111539&extension=ts&play_token=8VM0Kx1Nkm
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014306.png" group-title="UK| GENERAL",UK| ITV1 BORDER SCOTLAND FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014306&extension=ts&play_token=lqcxYowcD6
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014305.png" group-title="UK| GENERAL",UK| ITV1 LONDON FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014305&extension=ts&play_token=H1yMR0jAUf
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014304.png" group-title="UK| GENERAL",UK| ITV 1 WEST COUNTRY WEST FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014304&extension=ts&play_token=0mfbfNbKAL
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014303.png" group-title="UK| GENERAL",UK| ITV 1 TYNE TEES FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014303&extension=ts&play_token=rYBi7HAaC2
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014302.png" group-title="UK| GENERAL",UK| ITV 1 Granada FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014302&extension=ts&play_token=pG20BFQLEj
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014301.png" group-title="UK| GENERAL",UK| ITV MERIDIAN WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014301&extension=ts&play_token=IAjv5ryLix
+#EXTINF:-1 tvg-logo="http://103.176.90.92/images/1014299.png" group-title="UK| GENERAL",UK| ITV ANGLIA WEST FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014299&extension=ts&play_token=u6vTZVdZZt
+#EXTINF:-1 tvg-logo="http://103.176.90.92/images/1014298.png" group-title="UK| GENERAL",UK| ITV MERIDIAN NORTH FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014298&extension=ts&play_token=QwMoHpZoMS
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014297.png" group-title="UK| GENERAL",UK| ITV MERIDIAN SOUTH FHD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014297&extension=ts&play_token=zKo2B15L2g
+#EXTINF:-1 tvg-logo="http://103.176.90.92/images/1014296.png" group-title="UK| GENERAL",UK| ITV +1 CENTRAL WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014296&extension=ts&play_token=d9nxYy7r4e
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014295.png" group-title="UK| GENERAL",UK| ITV +1 GRANADA
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014295&extension=ts&play_token=bd6k9HFMAu
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1014294.png" group-title="UK| GENERAL",UK| ITV +1 LONDON
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1014294&extension=ts&play_token=I0pJ8va1m9
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/90975.png" group-title="UK| GENERAL",UK| N4 ICELAND HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=90975&extension=ts&play_token=6kLLkd0xa9
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229421.png" group-title="UK| GENERAL",##### GENERAL SD #####
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229421&extension=ts&play_token=BplJPBqcy9
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229915.png" group-title="UK| GENERAL",UK| BBC 1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229915&extension=ts&play_token=iVW888XfSU
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/79450.png" group-title="UK| GENERAL",UK| BBC 2
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=79450&extension=ts&play_token=4tns0fM7k4
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/79460.png" group-title="UK| GENERAL",UK| BBC 4
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=79460&extension=ts&play_token=qPWo3Pwyrk
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/79725.png" group-title="UK| GENERAL",UK| ITV 1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=79725&extension=ts&play_token=KWtvRRG9Cv
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/686073.png" group-title="UK| GENERAL",UK| ITV 1 +1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=686073&extension=ts&play_token=Cup0ypSSpE
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/79724.png" group-title="UK| GENERAL",UK| ITV 2
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=79724&extension=ts&play_token=0oMkfuqPL4
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/228571.png" group-title="UK| GENERAL",UK| ITV 2+1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=228571&extension=ts&play_token=V5V7XluLqP
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/79723.png" group-title="UK| GENERAL",UK| ITV 3
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=79723&extension=ts&play_token=PF3Ih71gis
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/228572.png" group-title="UK| GENERAL",UK| ITV 3+1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=228572&extension=ts&play_token=p7fTdlMrX1
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/79722.png" group-title="UK| GENERAL",UK| ITV 4
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=79722&extension=ts&play_token=HKSK5PLdxk
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/228573.png" group-title="UK| GENERAL",UK| ITV 4+1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=228573&extension=ts&play_token=hkNutdEbTf
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/114747.png" group-title="UK| GENERAL",UK| CITV
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=114747&extension=ts&play_token=bQJ7XRU0in
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111563.png" group-title="UK| GENERAL",UK| LONDON LIVE
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111563&extension=ts&play_token=e6rXygEz7z
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1093281.png" group-title="UK| GENERAL",UK| PRAISE TV NETWORK
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1093281&extension=ts&play_token=EebNofktHC
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/894388.png" group-title="UK| GENERAL",UK| SKY REPLAY
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=894388&extension=ts&play_token=2AVQ1dp5OJ
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229424.png" group-title="UK| GENERAL",##### COOKING #####
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229424&extension=ts&play_token=ysmCxkJk0U
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45275.png" group-title="UK| GENERAL",UK| FOOD NETWORK
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45275&extension=ts&play_token=eTW0O0rW1m
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/164047.png" group-title="UK| GENERAL",UK| FOOD NETWORK +1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=164047&extension=ts&play_token=5UcawWwltl
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229425.png" group-title="UK| GENERAL",##### LOCALS #####
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229425&extension=ts&play_token=VCLqbST8Aw
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45330.png" group-title="UK| GENERAL",UK| BBC SCOTLAND HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45330&extension=ts&play_token=Iv6pTFuP0t
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45286.png" group-title="UK| GENERAL",UK| CHANNEL 5 +1
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45286&extension=ts&play_token=BdLRkdf9q2
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229490.png" group-title="UK| GENERAL",UK| BBC ONE CHANNEL ISLAND
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229490&extension=ts&play_token=LabH3vQ9SO
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229775.png" group-title="UK| GENERAL",UK| BBC ONE EAST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229775&extension=ts&play_token=D0TPhNoUWK
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229769.png" group-title="UK| GENERAL",UK| BBC ONE EAST MIDLANDS
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229769&extension=ts&play_token=DKeNyNDrQD
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229483.png" group-title="UK| GENERAL",UK| BBC ONE EAST W
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229483&extension=ts&play_token=7A22IVpy2u
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229485.png" group-title="UK| GENERAL",UK| BBC ONE NI HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229485&extension=ts&play_token=1nl5NCpSTd
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111543.png" group-title="UK| GENERAL",UK| BBC ONE NI HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111543&extension=ts&play_token=vBt8MFdZcq
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229776.png" group-title="UK| GENERAL",UK| BBC ONE NORTH EAST& CAM
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229776&extension=ts&play_token=GkykzrQrob
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229771.png" group-title="UK| GENERAL",UK| BBC ONE NORTH WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229771&extension=ts&play_token=xO5uyC73Q8
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229773.png" group-title="UK| GENERAL",UK| BBC ONE SCOT
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229773&extension=ts&play_token=h8Z3CnjvxE
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229487.png" group-title="UK| GENERAL",UK| BBC ONE SCOT HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229487&extension=ts&play_token=xAHVLnOf59
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111558.png" group-title="UK| GENERAL",UK| BBC ONE SCOTLAND HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111558&extension=ts&play_token=tliBe0iS6d
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111544.png" group-title="UK| GENERAL",UK| BBC ONE SCOTLAND HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111544&extension=ts&play_token=Sh1ybJaA4I
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/1600124.png" group-title="UK| GENERAL",UK| BBC ONE SOUTH WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=1600124&extension=ts&play_token=SOBeY0s8cA
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229486.png" group-title="UK| GENERAL",UK| BBC ONE SOUTH EAST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229486&extension=ts&play_token=crDKC8wt4K
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229777.png" group-title="UK| GENERAL",UK| BBC ONE WALES
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229777&extension=ts&play_token=ba4dHIlr8B
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/45329.png" group-title="UK| GENERAL",UK| BBC ONE WALES HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=45329&extension=ts&play_token=BHAjKsAKnc
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111545.png" group-title="UK| GENERAL",UK| BBC ONE WALES HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111545&extension=ts&play_token=Vk9N5aUIXG
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229488.png" group-title="UK| GENERAL",UK| BBC ONE WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229488&extension=ts&play_token=hIVhBABzh1
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229770.png" group-title="UK| GENERAL",UK| BBC ONE WEST MIDLANDS
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229770&extension=ts&play_token=KowwHPWvLb
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229774.png" group-title="UK| GENERAL",UK| BBC ONE YORKS
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229774&extension=ts&play_token=67Sjev1Qeo
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229489.png" group-title="UK| GENERAL",UK| BBC ONE YK LI
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229489&extension=ts&play_token=NWflgih09n
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/392911.png" group-title="UK| GENERAL",UK| BBC ONE LONDON
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=392911&extension=ts&play_token=R9XwGH6ANY
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111559.png" group-title="UK| GENERAL",UK| BBC TWO HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111559&extension=ts&play_token=LSWThFRSWh
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229493.png" group-title="UK| GENERAL",UK| BBC TWO NORTHERN IRELAND
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229493&extension=ts&play_token=yd7MsYnD92
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229492.png" group-title="UK| GENERAL",UK| BBC TWO WALES
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229492&extension=ts&play_token=gsrTOMB0ft
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111560.png" group-title="UK| GENERAL",UK| BBC TWO WALES HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111560&extension=ts&play_token=2DRoNEG7Ze
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111547.png" group-title="UK| GENERAL",UK| BBC TWO WALES HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111547&extension=ts&play_token=7YtJ0Arl04
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229494.png" group-title="UK| GENERAL",UK| BBC TWO SCOTLAND
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229494&extension=ts&play_token=9LNiCvxheJ
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229499.png" group-title="UK| GENERAL",UK| CHANNEL 4 LONDON
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229499&extension=ts&play_token=EKmyiJpZDo
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229498.png" group-title="UK| GENERAL",UK| CHANNEL 4 MIDLANDS
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229498&extension=ts&play_token=PvFoG6hAJH
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229495.png" group-title="UK| GENERAL",UK| CHANNEL 4 SOUTH & EAST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229495&extension=ts&play_token=l7EaIseNuf
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229790.png" group-title="UK| GENERAL",UK| ITV CENTRAL EAST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229790&extension=ts&play_token=hDY5VvJCtW
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229780.png" group-title="UK| GENERAL",UK| ITV CENTRAL WEST
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229780&extension=ts&play_token=smLIVB55Pw
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229781.png" group-title="UK| GENERAL",UK| ITV GRANADA
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229781&extension=ts&play_token=h7ZK7pYPJ5
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229782.png" group-title="UK| GENERAL",UK| ITV LONDON
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229782&extension=ts&play_token=ZLvBwonvDS
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229792.png" group-title="UK| GENERAL",UK| ITV WALES
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229792&extension=ts&play_token=bHvjCUBjCA
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111562.png" group-title="UK| GENERAL",UK| ITV WALES HD
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111562&extension=ts&play_token=33GdZBNt0M
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/111554.png" group-title="UK| GENERAL",UK| ITV WALES HEVC
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=111554&extension=ts&play_token=DrPPACn69k
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229426.png" group-title="UK| GENERAL",##### SCOTLAND #####
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229426&extension=ts&play_token=7CpHF1o6IE
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/UK/229789.png" group-title="UK| GENERAL",UK| ITV BORDER SCOTLAND
+http://mag.greatott.me:80/play/live.php?mac=00:1A:79:74:B1:B9&stream=229789&extension=ts&play_token=XlNRoGXmuq
